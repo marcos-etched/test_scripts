@@ -3,13 +3,13 @@ Quick start
    python psu_ctrl.py status
 
 2. Configure PSU voltage=54V and current (limit)=5A  
-   	sudo python psu_ctrl.py configure -v 54 -i 5
+   	python psu_ctrl.py configure -v 54 -i 5
 
 3. Power off  
-   	sudo python psu_ctrl.py power_off
+   	python psu_ctrl.py power_off
 4. Power on  
-   	sudo python psu_ctrl.py power_on  
+   	python psu_ctrl.py power_on  
 5. Capture PSU Telemetry (VOUT, IOUT, POUT)  
-	sudo python psu_ctrl.py telemetry
+	python psu_ctrl.py telemetry
 
 See Help menu with -h argument for more information
