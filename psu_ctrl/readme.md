@@ -1,14 +1,16 @@
-Quick start
-		1. Check PSU status
-		python psu_ctrl.py status
-		2. Configure PSU voltage=54V and current (limit)=5A
-		sudo python psu_ctrl.py configure -v 54 -i 5
-		3. Power off
-		sudo python psu_ctrl.py power_off
-		4. Power on
-		sudo python psu_ctrl.py power_on
-		5. Capture PSU Telemetry (VOUT, IOUT, POUT)
-		sudo python psu_ctrl.py telemetry
+Quick start  
+1. Check PSU status  
+   python psu_ctrl.py status
+
+2. Configure PSU voltage=54V and current (limit)=5A  
+   	sudo python psu_ctrl.py configure -v 54 -i 5
+
+3. Power off  
+   	sudo python psu_ctrl.py power_off
+4. Power on  
+   	sudo python psu_ctrl.py power_on  
+5. Capture PSU Telemetry (VOUT, IOUT, POUT)
+	sudo python psu_ctrl.py telemetry
 
 Help menus
 sohu@raspberrypi:~/scripts/psu $ python psu_ctrl.py -h
