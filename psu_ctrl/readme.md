@@ -12,31 +12,4 @@ Quick start
 5. Capture PSU Telemetry (VOUT, IOUT, POUT)  
 	sudo python psu_ctrl.py telemetry
 
-Help menus  
-sohu@raspberrypi:~/scripts/psu $ python psu_ctrl.py -h  
-usage: psu_ctrl.py [-h] [device] {configure,power_on,power_off,status,telemetry} ...  
-  
-PSU Control Script
-  
-positional arguments:  
-  device                PSU device path (default: /dev/usbtmc0)  
-  {configure,power_on,power_off,status,telemetry}  
-                        Available commands  
-    configure           Configure PSU parameters  
-    power_on            Turn on PSU  
-    power_off           Turn off PSU  
-    status              Get PSU status  
-    telemetry           Monitor PSU telemetry  
-  
-options:  
-  -h, --help            show this help message and exit  
-  
-sohu@raspberrypi:~/scripts/psu $ python psu_ctrl.py configure -h  
-usage: psu_ctrl.py [device] configure [-h] -v VOLTAGE -i CURRENT  
-  
-options:  
-  -h, --help            show this help message and exit  
-  -v VOLTAGE, --voltage VOLTAGE  
-                        Set output voltage  
-  -i CURRENT, --current CURRENT  
-                        Set current limit  
+See Help menu with -h argument for more information
