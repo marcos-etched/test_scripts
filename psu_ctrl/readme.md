@@ -12,4 +12,4 @@ Quick start
 5. Capture PSU Telemetry (VOUT, IOUT, POUT)  
 	python psu_ctrl.py telemetry
 
-See Help menu with -h argument for more information
+See help menu with -h argument for more information
